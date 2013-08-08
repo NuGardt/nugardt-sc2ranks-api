@@ -1,0 +1,2322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>NuGardt.SC2Ranks.API</name>
+  </assembly>
+  <members>
+    <member name="T:NuGardt.SC2Ranks.API.CacheConfig"></member>
+    <member name="M:NuGardt.SC2Ranks.API.CacheConfig.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.CacheConfig</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.CustomDivisionAddCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.CustomDivisionRemoveCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultCustomDivisionAddCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultCustomDivisionAddCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultCustomDivisionRemoveCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultCustomDivisionRemoveCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetBaseDataCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetBaseDataCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCharacterCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCharacterCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCharacterListCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCharacterListCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCharacterTeamListCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCharacterTeamListCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCharacterTeamsListCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCharacterTeamsListCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetClanCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetClanCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetClanCharacterListCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetClanCharacterListCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetClanTeamListCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetClanTeamListCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCustomDivisionCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCustomDivisionCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCustomDivisionCharacterListCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCustomDivisionCharacterListCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCustomDivisionsCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCustomDivisionsCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCustomDivisionTeamListCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetCustomDivisionTeamListCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetDivisionCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetDivisionCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetDivisionsTopCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetDivisionsTopCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetDivisionTeamsTopCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetDivisionTeamsTopCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetRankingsTopCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultGetRankingsTopCacheDurationString"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultSearchCharacterTeamListCacheDuration"></member>
+    <member name="F:NuGardt.SC2Ranks.API.CacheConfig.DefaultSearchCharacterTeamListCacheDurationString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetBaseDataCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetCharacterCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetCharacterListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetCharacterTeamListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetCharacterTeamsListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetClanCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetClanCharacterListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetClanTeamListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetCustomDivisionCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetCustomDivisionCharacterListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetCustomDivisionsCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetCustomDivisionTeamListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetDivisionCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetDivisionsTopCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetDivisionTeamsTopCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.GetRankingsTopCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.CacheConfig.SearchCharacterTeamListCacheDuration"></member>
+    <member name="T:NuGardt.SC2Ranks.API.eSc2RanksBracket">
+      <summary>
+ Bracket.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksBracket.Random">
+      <summary>
+ Random flag.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksBracket._1V1">
+      <summary>
+ 1v1
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksBracket._2V2T">
+      <summary>
+ 2v2 Team
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksBracket._2V2R">
+      <summary>
+ 2v2 Random Team
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksBracket._3V3T">
+      <summary>
+ 3v3 Team
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksBracket._3V3R">
+      <summary>
+ 3v3 Random Team
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksBracket._4V4T">
+      <summary>
+ 4v4 Team
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksBracket._4V4R">
+      <summary>
+ 4v4 Random Team
+ </summary>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.eSc2RanksExpansion">
+      <summary>
+ Expansion of StarCraft II.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksExpansion.WoL">
+      <summary>
+ Wings of Liberty
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksExpansion.HotS">
+      <summary>
+ Heart of the Swarm
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksExpansion.LotV">
+      <summary>
+ Legacy of the Void
+ </summary>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.eSc2RanksLeague">
+      <summary>
+ Leagues.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksLeague.All">
+      <summary>
+ All leagues
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksLeague.Bronze">
+      <summary>
+ Bronze league
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksLeague.Silver">
+      <summary>
+ Silver league
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksLeague.Gold">
+      <summary>
+ Gold league
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksLeague.Platinum">
+      <summary>
+ Platinum league
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksLeague.Diamond">
+      <summary>
+ Diamond league
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksLeague.Master">
+      <summary>
+ Master league
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksLeague.GrandMaster">
+      <summary>
+ Grandmaster league
+ </summary>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.eSc2RanksMatchType">
+      <summary>
+ Search match type.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksMatchType.Excact">
+      <summary>
+ Exact search.
+ </summary>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.eSc2RanksRace">
+      <summary>
+ Races in StarCraft II.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRace.Protoss">
+      <summary>
+ Protoss.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRace.Terran">
+      <summary>
+ Terran.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRace.Zerg">
+      <summary>
+ Zerg.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRace.Random">
+      <summary>
+ Random.
+ </summary>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.eSc2RanksRankRegion">
+      <summary>
+ Rank Regions.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRankRegion.Global">
+      <summary>
+ All Regions
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRankRegion.EU">
+      <summary>
+ European Union
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRankRegion.SEA">
+      <summary>
+ South-East-Asia
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRankRegion.CN">
+      <summary>
+ China
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRankRegion.Fea">
+      <summary>
+ Korea/Taiwan
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRankRegion.AM">
+      <summary>
+ Americas
+ </summary>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.eSc2RanksRegion">
+      <summary>
+ Regions.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.Global">
+      <summary>
+ All Regions.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.AM">
+      <summary>
+ Americas.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.EU">
+      <summary>
+ European Union.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.KR">
+      <summary>
+ South-Korea.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.TW">
+      <summary>
+ Taiwan.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.SEA">
+      <summary>
+ South-East-Asia.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.CN">
+      <summary>
+ China
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.US">
+      <summary>
+ United States of America.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.FEA">
+      <summary>
+ Korea/Taiwan.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.LA">
+      <summary>
+ Latin America.
+ </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.eSc2RanksRegion.NA">
+      <summary>
+ North-America.
+ </summary>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.ICacheConfig"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.CustomDivisionAddCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.CustomDivisionRemoveCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetBaseDataCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetCharacterCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetCharacterListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetCharacterTeamListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetCharacterTeamsListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetClanCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetClanCharacterListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetClanTeamListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetCustomDivisionCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetCustomDivisionCharacterListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetCustomDivisionsCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetCustomDivisionTeamListCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetDivisionCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetDivisionsTopCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetDivisionTeamsTopCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.GetRankingsTopCacheDuration"></member>
+    <member name="P:NuGardt.SC2Ranks.API.ICacheConfig.SearchCharacterTeamListCacheDuration"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple">
+      <summary>
+ This class represents character information that is used for searching.
+ </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple.#ctor(NuGardt.SC2Ranks.API.eSc2RanksRegion,System.Int64)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple.BattleNetID"></member>
+    <member name="F:NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple.Region"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Sc2RanksService">
+      <summary>
+ Class containing all API calls to SC2Ranks.
+ </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.ClearCache">
+      <summary>
+ Create the cache.
+ </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.CreateInstance(System.String,NuGardt.SC2Ranks.API.Sc2RanksService@,System.IO.Stream,NuGardt.SC2Ranks.API.ICacheConfig,System.Boolean)">
+      <summary>
+ Create an instance of the SC2Ranks Service.
+ </summary>
+      <param name="ApiKey">Your private SC2Ranks API key.</param>
+      <param name="Instance">Contains the instance if no <c>Exception</c> is requren otherwise is <c>Nothing</c>.</param>
+      <param name="CacheStream">Optional. Default is <c>Nothing</c>. Stream for reading and writing cache data.</param>
+      <param name="CacheConfig">Optional. If <c>Nothing</c> then default duration will be used to each API method. Config for caching duration for each API method.</param>
+      <param name="IgnoreBadCacheStream">Optional. Default is <c>True</c>. When set to <c>True</c> then all read errors are ignored and the data is discarded otherwise <c>False</c> to get the error messages also fails instance creation.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.CustomDivisionAdd(System.String,System.Collections.Generic.IList{NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple},NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult@,System.Boolean)">
+      <summary>
+ Adds characters to the custom division, up to 200 at once. Returns the status of each ID passed, whether invalid, added or already added. 
+ </summary>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Characters">A list of character information to add.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.CustomDivisionAddBegin(System.Object,System.String,System.Collections.Generic.IList{NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple},System.AsyncCallback,System.Boolean)">
+      <summary>
+ Adds characters to the custom division, up to 200 at once. Returns the status of each ID passed, whether invalid, added or already added. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Characters">A list of character information to add.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.CustomDivisionAddEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.CustomDivisionRemove(System.String,System.Collections.Generic.IList{NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple},NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult@,System.Boolean)">
+      <summary>
+ Removes characters from the custom division, up to 200 at once. Returns the status of each ID passed, whether invalid, removed, not added or unknown. 
+ </summary>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Characters">A list of character information to remove.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.CustomDivisionRemoveBegin(System.Object,System.String,System.Collections.Generic.IList{NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple},System.AsyncCallback,System.Boolean)">
+      <summary>
+ Removes characters from the custom division, up to 200 at once. Returns the status of each ID passed, whether invalid, removed, not added or unknown. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Characters">A list of character information to remove.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.CustomDivisionRemoveEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.Dispose">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocDispose">
+            <parameter>NuGardt.SC2Ranks.API.Sc2RanksService</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetBaseData(NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult@,System.Boolean)">
+      <summary>
+ Returns base information about the API. Such as the value leagues, brackets, regions or rank regions that can be used. 
+ </summary>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetBaseDataBegin(System.Object,System.AsyncCallback,System.Boolean)">
+      <summary>
+ Returns base information about the API. Such as the value leagues, brackets, regions or rank regions that can be used. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetBaseDataEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacter(NuGardt.SC2Ranks.API.eSc2RanksRegion,System.Int32,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult@,System.Boolean)">
+      <summary>
+ Returns a single character. 
+ </summary>
+      <param name="Region">The region of the character.</param>
+      <param name="BattleNetID">The Battle.net identifier.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterBegin(System.Object,NuGardt.SC2Ranks.API.eSc2RanksRegion,System.Int32,System.AsyncCallback,System.Boolean)">
+      <summary>
+ Returns a single character. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="Region">The region of the character.</param>
+      <param name="BattleNetID">The Battle.net identifier.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterList(System.Collections.Generic.IList{NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple},NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult@,System.Boolean)">
+      <summary>
+ Accepts an array of characters with region and bnet_id, up to 200 characters at once. If one of the passed characters is invalid (region/bnet id/not found) then the bnet_id/region are returned with the error. 
+ </summary>
+      <param name="Characters">A list of character information to get more information on.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterListBegin(System.Object,System.Collections.Generic.IList{NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple},System.AsyncCallback,System.Boolean)">
+      <summary>
+ Accepts an array of characters with region and bnet_id, up to 200 characters at once. If one of the passed characters is invalid (region/bnet id/not found) then the bnet_id/region are returned with the error. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="Characters">A list of character information to get more information on.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterListEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterTeamList(System.Collections.Generic.IList{NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple},NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Accepts an array of characters with *region* and *bnet_id*, up to 50 characters at once. If one of the passed characters is invalid (region/bnet id/not found) then the bnet_id/region are returned with the error. Returns all of the teams that match the given team filters for the characters passed. Does not return team characters. 
+ </summary>
+      <param name="Characters">A list of character information to get more information on.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterTeamListBegin(System.Object,System.Collections.Generic.IList{NuGardt.SC2Ranks.API.Sc2RanksCharacterSimple},NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Accepts an array of characters with *region* and *bnet_id*, up to 50 characters at once. If one of the passed characters is invalid (region/bnet id/not found) then the bnet_id/region are returned with the error. Returns all of the teams that match the given team filters for the characters passed. Does not return team characters. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="Characters">A list of character information to get more information on.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterTeamListEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterTeamsList(NuGardt.SC2Ranks.API.eSc2RanksRegion,System.Int32,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Returns all of the teams the character is on, as well as the characters info. Does not return other characters on the team. 
+ </summary>
+      <param name="Region">The region of the character.</param>
+      <param name="BattleNetID">The Battle.net identifier.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterTeamsListBegin(System.Object,NuGardt.SC2Ranks.API.eSc2RanksRegion,System.Int32,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Returns all of the teams the character is on, as well as the characters info. Does not return other characters on the team. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="Region">The region of the character.</param>
+      <param name="BattleNetID">The Battle.net identifier.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCharacterTeamsListEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClan(NuGardt.SC2Ranks.API.eSc2RanksRankRegion,System.String,NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksBracket},System.Boolean)">
+      <summary>
+ Returns base clan data with the Clans scores based on the bracket.
+ </summary>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Tag">The tag of the clan.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClanBegin(System.Object,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,System.String,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksBracket},System.Boolean)">
+      <summary>
+ Returns base clan data with the Clans scores based on the bracket.
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Tag">The tag of the clan.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClanCharacterList(NuGardt.SC2Ranks.API.eSc2RanksRankRegion,System.String,NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksBracket},System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns the characters who are part of the clan, up to 50 per request or less if limit is passed. 
+ </summary>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Tag">The tag of the clan.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClanCharacterListBegin(System.Object,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,System.String,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksBracket},System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns the characters who are part of the clan, up to 50 per request or less if limit is passed. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Tag">The tag of the clan.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClanCharacterListEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClanEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClanTeamList(NuGardt.SC2Ranks.API.eSc2RanksRankRegion,System.String,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns the teams who are part of the clan, up to 50 per request or less if limit is passed. 
+ </summary>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Tag">The tag of the clan.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClanTeamListBegin(System.Object,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,System.String,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns the teams who are part of the clan, up to 50 per request or less if limit is passed. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Tag">The tag of the clan.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetClanTeamListEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivision(System.String,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult@,System.Boolean)">
+      <summary>
+ Returns base information of the custom division by the given id. 
+ </summary>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionBegin(System.Object,System.String,System.AsyncCallback,System.Boolean)">
+      <summary>
+ Returns base information of the custom division by the given id. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionCharacterList(System.String,NuGardt.SC2Ranks.API.eSc2RanksRegion,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult@,System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns the characters in the custom division without any team data, filtered by the passed params. 
+ </summary>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Region">The region of the character.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionCharacterListBegin(System.Object,System.String,NuGardt.SC2Ranks.API.eSc2RanksRegion,System.AsyncCallback,System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns the characters in the custom division without any team data, filtered by the passed params. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Region">The region of the character.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionCharacterListEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisions(NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult@,System.Boolean)">
+      <summary>
+ Returns all of the custom divisions attached to the user account of the API Key. 
+ </summary>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionsBegin(System.Object,System.AsyncCallback,System.Boolean)">
+      <summary>
+ Returns all of the custom divisions attached to the user account of the API Key. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionsEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionTeamList(System.String,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns the teams in the custom division filtered by the passed params. 
+ </summary>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionTeamListBegin(System.Object,System.String,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns the teams in the custom division filtered by the passed params. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetCustomDivisionTeamListEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivision(System.String,NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult@,System.Boolean)">
+      <summary>
+ Returns base information about the division.
+ </summary>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivisionBegin(System.Object,System.String,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Returns base information about the division.
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivisionEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivisionsTop(NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.Int32,NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Returns the top limit divisions given the passed params. Unlike other APIs, this cannot be paginated and is intended to be used for showing mini ranking type of widgets and not for data collection. 
+ </summary>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="TopCount">The top amount of results to return. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivisionsTopBegin(System.Object,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.Int32,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Returns the top limit divisions given the passed params. Unlike other APIs, this cannot be paginated and is intended to be used for showing mini ranking type of widgets and not for data collection. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="TopCount">The top amount of results to return. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivisionsTopEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivisionTeamsTop(System.String,NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult@,System.Boolean)">
+      <summary>
+ Returns the top limit teams in the division. This cannot be paginated and is intended to be used for showing mini ranking type of widgets and not data collection.
+ </summary>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivisionTeamsTopBegin(System.Object,System.String,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Returns the top limit teams in the division. This cannot be paginated and is intended to be used for showing mini ranking type of widgets and not data collection.
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="DivisionID">The division identifier.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetDivisionTeamsTopEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetRankingsTop(NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.Int32,NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Returns the top limit teams given the passed params. Unlike other APIs, this cannot be paginated and is intended to be used for showing mini ranking type of widgets and not for data collection. 
+ </summary>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="TopCount">The top amount of results to return. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetRankingsTopBegin(System.Object,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.Int32,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Boolean)">
+      <summary>
+ Returns the top limit teams given the passed params. Unlike other APIs, this cannot be paginated and is intended to be used for showing mini ranking type of widgets and not for data collection. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="TopCount">The top amount of results to return. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.GetRankingsTopEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="F:NuGardt.SC2Ranks.API.Sc2RanksService.MaxRequestLimit">
+      <summary>
+ Maximum request limit.
+ </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.SearchCharacterTeamList(System.String,NuGardt.SC2Ranks.API.eSc2RanksMatchType,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult@,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns all the teams with a team member whos name matches the search. 
+ </summary>
+      <param name="Name">The name to search for.</param>
+      <param name="Match">The type of matching to be done.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.SearchCharacterTeamListBegin(System.Object,System.String,NuGardt.SC2Ranks.API.eSc2RanksMatchType,NuGardt.SC2Ranks.API.eSc2RanksRankRegion,NuGardt.SC2Ranks.API.eSc2RanksExpansion,NuGardt.SC2Ranks.API.eSc2RanksBracket,NuGardt.SC2Ranks.API.eSc2RanksLeague,System.AsyncCallback,System.Nullable{NuGardt.SC2Ranks.API.eSc2RanksRace},System.Int32,System.Int32,System.Boolean)">
+      <summary>
+ Returns all the teams with a team member whos name matches the search. 
+ </summary>
+      <param name="Key">Can contain anything. Useful for tracking asynchronous calls. Is returned when the End method is called.</param>
+      <param name="Name">The name to search for.</param>
+      <param name="Match">The type of matching to be done.</param>
+      <param name="RankRegion">The rank region the character plays in.</param>
+      <param name="Expansion"> The expansion set of StarCraft II.</param>
+      <param name="Bracket">The bracket to filter.</param>
+      <param name="League">The league to filter.</param>
+      <param name="Callback">Address of a method to call when a result is available.</param>
+      <param name="Race">Optional. Default is all races. Race to filter.</param>
+      <param name="Limit">The maximum limit of results returned. Cannot exceed <c>MaximumRequestLimit</c>.</param>
+      <param name="Page">The page of data to return based on the <c>Limit</c>.</param>
+      <param name="IgnoreCache">Optional. Default is <c>False</c>. Ignores any cached data that might be available when caching is enabled.</param>
+      <returns>Returns the status of the asynchronous operation.</returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Sc2RanksService.SearchCharacterTeamListEnd(System.IAsyncResult,System.Object@,NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult@)">
+      <summary>
+ End method to call when the callback was invoked.
+ </summary>
+      <param name="AsyncResult">The <c>IAsyncResult</c>.</param>
+      <param name="Key">Contains the key used in Begin.</param>
+      <param name="Result">Contains the result. Is <c>Nothing</c> if no data was received and the query timed out.</param>
+      <returns>Return an <c>System.Exception</c> if an error occurred otherwise <c>Nothing</c>.</returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.ISc2RanksBaseResult">
+      <summary>
+ SC2Ranks Result Interface.
+ </summary>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionAddResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksCustomDivisionRemoveResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetBaseDataResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterListResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamListResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCharacterTeamsListResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanCharacterListResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetClanTeamListResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionCharacterListResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionsResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetCustomDivisionTeamListResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionsTopResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetDivisionTeamsTopResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksGetRankingsTopResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult.#ctor">
+      <summary>
+ Constructor.
+ </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult.CacheExpires">
+      <summary>
+ Returns the date when the cached data expires. Only available when caching is enabled.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult.CreditsLeft"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult.CreditsUsed"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult.Error">
+      <summary>
+ Returns the error message if an error has occured.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult.HasError">
+      <summary>
+ Returns <c>True</c> if an error has occured, otherwise <c>False</c>.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult.NuGardt#API#Helper#JSON#IBaseResult#ReadHeader(System.Net.WebHeaderCollection)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Sc2RanksSearchCharacterTeamListResult.ResponseRaw">
+      <summary>
+ Returns the raw response from the server.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData.Brackets"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData.Expansions"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData.Leagues"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData.Races"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData.RankRegions"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData.Regions"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData.Season"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBaseData.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracket"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracket.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracket</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracket.Bracket"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracket.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition._1V1"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition._2V2R"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition._2V2T"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition._3V3R"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition._3V3T"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition._4V4R"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition._4V4T"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksBracketsDefinition.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.BattleNetID"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.Clan"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.Name"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.Race"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.Region"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.ReplayUrl"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.Url"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterBasic.VodUrl"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.AchievementPoints"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.BattleNetID"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.Clan"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.Name"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.Region"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.ReplayUrl"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.SwarmLevels"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.UpdatedAt"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.UpdatedAtUnixTime"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.Url"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended.VodUrl"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.Add(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.Clear"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.Contains(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.CopyTo(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended[],System.Int32)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.Count"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.System#Collections#IEnumerable#GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.IndexOf(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.Insert(System.Int32,NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.IsReadOnly"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.Item(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.Remove(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtended)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.RemoveAt(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedList.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams.Teams"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.Add(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.Clear"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.Contains(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.CopyTo(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams[],System.Int32)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.Count"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.System#Collections#IEnumerable#GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.IndexOf(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.Insert(System.Int32,NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.IsReadOnly"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.Item(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.Remove(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeams)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.RemoveAt(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCharacterExtendedWithTeamsList.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanBasic"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanBasic.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanBasic</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanBasic.Tag"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanBasic.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanBasic.Url"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtended"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtended.Description"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtended.MemberCount"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtended.Region"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtended.Scores"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtended.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtended.UpdatedAt"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtended.UpdatedAtUnixTime"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtendedWithCharacters"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtendedWithCharacters.Characters"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtendedWithCharacters.Pagination"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtendedWithCharacters.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtendedWithTeams"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtendedWithTeams.Pagination"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtendedWithTeams.Teams"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksClanExtendedWithTeams.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision.Description"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision.ID"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision.MemberCount"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision.Name"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision.Public"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision.Url"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.Add(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.Clear"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.Contains(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.CopyTo(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision[],System.Int32)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.Count"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.System#Collections#IEnumerable#GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.IndexOf(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.Insert(System.Int32,NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.IsReadOnly"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.Item(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.Remove(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivision)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.RemoveAt(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionList.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus.BattleNetID"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus.Error"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus.Region"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.Add(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.Clear"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.Contains(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.CopyTo(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus[],System.Int32)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.Count"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.System#Collections#IEnumerable#GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.IndexOf(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.Insert(System.Int32,NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.IsReadOnly"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.Item(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.Remove(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatus)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.RemoveAt(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionManagementStatusList.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionWithCharacters"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionWithCharacters.Characters"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionWithCharacters.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionWithTeams"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionWithTeams.Teams"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksCustomDivisionWithTeams.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksExpansionsDefinition"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksExpansionsDefinition.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksExpansionsDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksExpansionsDefinition.Hots"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksExpansionsDefinition.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksExpansionsDefinition.Wol"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.AverageGames"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.AverageLosses"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.AveragePoints"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.AverageWinRatio"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.AverageWins"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.Bracket"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.CharacterCount"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.Expansion"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.ID"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.League"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.Name"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.RankRegion"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.UpdateAtUnixTime"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.UpdatedAt"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision.Url"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.Add(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.Clear"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.Contains(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.CopyTo(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision[],System.Int32)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.Count"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.System#Collections#IEnumerable#GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.IndexOf(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.Insert(System.Int32,NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.IsReadOnly"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.Item(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.Remove(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivision)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.RemoveAt(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionList.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionWithTeams"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionWithTeams.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionWithTeams</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionWithTeams.Pagination"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionWithTeams.Teams"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeagueDivisionWithTeams.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.All"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.Bronze"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.Diamond"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.Gold"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.Grandmaster"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.Master"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.Platinum"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.Silver"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksLeaguesDefinition.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksNotation"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksNotation.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksNotation</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksNotation.Long"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksNotation.Short"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksNotation.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksPagination"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksPagination.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksPagination</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksPagination.Limit"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksPagination.Offset"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksPagination.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksPagination.Total"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRacesDefinition"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRacesDefinition.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRacesDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRacesDefinition.Protoss"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRacesDefinition.Random"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRacesDefinition.Terran"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRacesDefinition.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRacesDefinition.Zerg"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankings"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankings.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankings</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankings.Region"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankings.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankings.World"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition.Am"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition.Cn"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition.Eu"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition.Fea"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition.Global"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition.Sea"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRankRegionsDefinition.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition.Global"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition.Kr"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition.La"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition.Ru"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition.Tw"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksRegionsDefinition.Us"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksScores"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksScores.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksScores</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksScores.Average"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksScores.Sum"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksScores.Top"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksScores.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSeason"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSeason.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSeason</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSeason.Number"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSeason.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSeason.Year"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSwarmLevels"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSwarmLevels.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSwarmLevels</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSwarmLevels.Protoss"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSwarmLevels.Terran"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSwarmLevels.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksSwarmLevels.Zerg"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.Bracket"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.Division"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.Expansion"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.LastGameAt"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.LastGameAtUnixTime"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.League"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.Losses"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.Points"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.Rankings"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.RankRegion"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.ToString"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.Url"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.WinRatio"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamBasic.Wins"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamDivision"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamDivision.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamDivision</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamDivision.ID"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamDivision.Rank"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamDivision.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended.Characters"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.Add(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.Clear"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.Contains(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.CopyTo(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended[],System.Int32)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.Count"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.System#Collections#IEnumerable#GetEnumerator"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.IndexOf(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.Insert(System.Int32,NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended)"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.IsReadOnly"></member>
+    <member name="P:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.Item(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.Remove(NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtended)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.RemoveAt(System.Int32)"></member>
+    <member name="M:NuGardt.SC2Ranks.API.Result.Element.Sc2RanksTeamExtendedList.ToString"></member>
+    <member name="T:NuGardt.SC2Ranks.Helper.EnumBuffer`2">
+      <summary>
+ This class buffers an enumartion marked with <see cref="T:NuGardt.SC2Ranks.Helper.TagAttribute">TagAttribute</see>.
+ </summary>
+      <typeparam name="TEnum"></typeparam>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.EnumBuffer`2.#ctor(NuGardt.SC2Ranks.Helper.EnumBuffer{`0,`1}.procParseCustomAttribute)">
+      <summary>
+ Construct.
+ </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.EnumBuffer`2.GetEnum(System.String,System.Exception@)">
+      <summary>
+ Returns the tag for an enumeration.
+ </summary>
+      <param name="Tag">The tag.</param>
+      <param name="Ex">
+ Optional. Contains the error message if one occured, otherwise <c>Nothing</c>.
+ </param>
+      <returns>
+ Returns <c>True</c>, if the tag was matched to an enumeration, otherwise <c>False</c>.
+ </returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.EnumBuffer`2.GetEnum(System.String,`0@,System.Exception@)">
+      <summary>
+ Returns the tag for an enumeration.
+ </summary>
+      <param name="Tag">The tag.</param>
+      <param name="Instance">
+ Contains the Enumeration, if the tag could be matched to an enumeration, otherwise <c>Nothing</c>.
+ </param>
+      <param name="Ex">
+ Optional. Contains the error message if one occured, otherwise <c>Nothing</c>.
+ </param>
+      <returns>
+ Returns <c>True</c>, if the tag was matched to an enumeration, otherwise <c>False</c>.
+ </returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.EnumBuffer`2.GetValue(`0,System.Exception@)">
+      <summary>
+ Returns the enumeration for a tag.
+ </summary>
+      <param name="Enum">The enumartion.</param>
+      <param name="Ex">
+ Optional. Contains the error message if one occured, otherwise <c>Nothing</c>.
+ </param>
+      <returns>
+ Return <c>True</c>, if the enumration was matched to a tag, otherwise <c>False</c>.
+ </returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.EnumBuffer`2.GetValue(`0,System.String@,System.Exception@)">
+      <summary>
+ Returns the enumeration for a tag.
+ </summary>
+      <param name="Enum">The enumartion.</param>
+      <param name="Instance">
+ Contains the tag, if the enumartion could be matched to a tag, otherwise <c>False</c>.
+ </param>
+      <param name="Ex">
+ Optional. Contains the error message if one occured, otherwise <c>Nothing</c>.
+ </param>
+      <returns>
+ Return <c>True</c>, if the enumration was matched to a tag, otherwise <c>False</c>.
+ </returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.EnumBuffer`2.ToEnumList">
+      <summary>
+ Returns a list of all enumerations.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.EnumBuffer`2.ToValueList">
+      <summary>
+ Returns a list of all enumerations.
+ </summary>
+      <returns></returns>
+    </member>
+    <member name="T:NuGardt.SC2Ranks.Helper.EnumBuffer`2.procParseCustomAttribute"></member>
+    <member name="T:NuGardt.SC2Ranks.Helper.Enums"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.BracketBuffer"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.BracketNotationBuffer"></member>
+    <member name="M:NuGardt.SC2Ranks.Helper.Enums.BracketRawToBracket(System.Int32,System.Boolean)"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.ExpansionBuffer"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.ExpansionNotationBuffer"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.LeagueBuffer"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.MatchTypeBuffer"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.RacesBuffer"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.RankRegionBuffer"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.RegionBuffer"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.Enums.RegionNotationBuffer"></member>
+    <member name="T:NuGardt.SC2Ranks.Helper.NotationAttribute">
+      <summary>
+ Attribute for Notation.
+ </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.NotationAttribute.#ctor(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.Helper.NotationAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.NotationAttribute.ToString"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.NotationAttribute.Value"></member>
+    <member name="T:NuGardt.SC2Ranks.Helper.TagAttribute">
+      <summary>
+ Attribute for field tag.
+ </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.TagAttribute.#ctor(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>NuGardt.SC2Ranks.Helper.TagAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:NuGardt.SC2Ranks.Helper.TagAttribute.ToString"></member>
+    <member name="F:NuGardt.SC2Ranks.Helper.TagAttribute.Value"></member>
+  </members>
+</doc>
